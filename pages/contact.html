@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf=8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact</title>
+	
+	<style>
+  
+  body{
+  	
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  body > * { /*(greater than) > is a child selector that styles the immediate children.*/
+
+
+  background: #eee;
+  padding: 2rem;
+  text-align: center;
+  border: 5px solid white;
+}
+  .header{
+  	flex: 1 100%;
+    order: 1;
+    font-size:xxx-large;
+    font-family: impact;
+
+  }
+  
+  .footer{
+  	
+    flex: 1 100%;
+    order: 4;
+  	
+    
+  }
+  
+  .sidebar{
+  	
+    order: 3;
+    
+  }
+  
+  .main{
+  	width: 100%;
+    order: 2;
+  	
+  }
+  
+  @media screen and (max-width: 400px){
+  	body{
+  		 -webkit-flex-direction: column;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    }
+    
+  }
+  
+  body {
+  margin: 0;
+  font-family: Impact, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #eee;
+  width: 100%;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 10px 80px;
+  text-decoration: none;
+  font-size: 23px;
+}
+
+.topnav a:hover {
+  background-color: red;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: grey;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href=../index.html>Home</a>
+  <a href="./mets.html">New York Mets</a>
+  <a href="./contact.html"#contact>Contact</a>
+  <a href="./about.html">About</a>
+  <a href="./about.html"><img src="../images/arwsvghead.png"width="80" height="80"></a>
+</div>
+
+</body>
+  
+ 
+  
+</head>
+<body>
+<header class="header"><img src="../images/sportsvector.png"width="200" height="150"><br> CONTACT</header></br> </header>
+<main class="main">
+	<h3>Contact Form</h3>
+<img src="https://static.vecteezy.com/system/resources/previews/000/581/999/original/email-icon-vector-illustration.jpg"width="50" height="40">
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<button type="button"
+onclick="document.getElementById('date_time_button').innerHTML = Date()">
+ Time  *CLICK*.</button>
+
+<p id="date_time_button"></p>
+
+</body>
+</html> 
+</main>
+<aside class="sidebar"><img src="../images/mets.png"width="300" height="200"><img src="https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/giants/xea4dxjztzgl4mldqjdk"width="300" height="200"><img src="https://sportsfly.cbsistatic.com/fly-0474/bundles/sportsmediacss/images/core/superbowl-logo.svg"width="300" height="200"><img src="https://cdn.vox-cdn.com/thumbor/pWodVFt4XpopfPgfau4Ggjmrk1M=/0x0:700x548/1200x800/filters:focal(294x218:406x330)/cdn.vox-cdn.com/uploads/chorus_image/image/58523615/197decc9241986fcfd392c3b14d89012.0.png"width="200" height="200"><img src="https://library.sportingnews.com/2022-11/Football%20Verse%20Ad%20Nike.jpg"width="300" height="200"><img src="https://cdn.vox-cdn.com/thumbor/YKogTOtw1oT3x1eSePYqdCvSQAc=/1400x788/filters:format(png)/cdn.vox-cdn.com/uploads/chorus_asset/file/23706643/wbc2023a_copy.png"width="300" height="200">
+</aside>
+</aside>
+<footer class="footer"><img src="../images/sportsvector.png"width="200" height="150"></footer>
+
+</style>
